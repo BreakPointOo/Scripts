@@ -1,4 +1,12 @@
 '''
+Version: 1.0.2
+
+Fix issue "SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 505-506: truncated \UXXXXXXXX escape"
+This bug only appears after Maya2022 version
+
+'''
+
+'''
 Author: Buliarca Cristian (buliarca@yahoo.com)
 Copyright (C) 2013 Buliarca Cristian
 http://buliarca.blog124.fc2.com/
