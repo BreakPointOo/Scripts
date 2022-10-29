@@ -4,6 +4,9 @@ Version: 1.0.2
 Fix issue "SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 505-506: truncated \UXXXXXXXX escape"
 This bug only appears after Maya2022 version
 
+Modified by: BreakPointOo
+
+https://github.com/BreakPointOo/Scripts/blob/main/lockNormals_toHS.py
 '''
 
 '''
