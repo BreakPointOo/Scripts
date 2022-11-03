@@ -1,15 +1,22 @@
-'''
+"""
 Version: 1.0.2
 
-Fix issue "SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 505-506: truncated \UXXXXXXXX escape"
+Fix issue "SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 505-506: truncated \\UXXXXXXXX escape"
 This bug only appears after Maya2022 version
+
+Use these python command to run it:
+
+import importlib
+import lockNormals_toHS as lockNormals_toHS
+importlib.reload(lockNormals_toHS)
+
 
 Modified by: BreakPointOo
 
 https://github.com/BreakPointOo/Scripts/blob/main/lockNormals_toHS.py
-'''
+"""
 
-'''
+"""
 Author: Buliarca Cristian (buliarca@yahoo.com)
 Copyright (C) 2013 Buliarca Cristian
 http://buliarca.blog124.fc2.com/
@@ -37,7 +44,7 @@ reload(lockNormals_toHS)
 
 Update:
 	Simplified the second step, now the script is 2 times faster
-'''	
+"""
 
 
 import maya.cmds as cmds
