@@ -6,9 +6,9 @@ This bug only appears after Maya2022 version
 
 Use these python command to run it:
 
-import importlib
+from imp import reload
 import lockNormals_toHS as lockNormals_toHS
-importlib.reload(lockNormals_toHS)
+reload(lockNormals_toHS)
 
 
 Modified by: BreakPointOo
